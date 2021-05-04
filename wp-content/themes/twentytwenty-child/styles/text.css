@@ -1,0 +1,12 @@
+/* TEXT */
+
+.title {
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: .025em;
+}
+
+.title--small {
+    font-size: 2vw;
+    text-transform: uppercase;
+}

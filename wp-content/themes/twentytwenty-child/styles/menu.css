@@ -1,0 +1,23 @@
+/* MENU */
+
+.primary-menu-wrapper {
+    display: flex;
+}
+
+ul.primary-menu {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.primary-menu li {
+    white-space: nowrap;    
+}
+
+.primary-menu + .social-menu {
+    margin-left: 2.5vw;
+}
+
+.social-icons a {
+	background: black;
+}
