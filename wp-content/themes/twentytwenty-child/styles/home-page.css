@@ -1,0 +1,37 @@
+#slogan-img{
+    height: 60vh;
+    /*Vertically with Transform and Translate*/
+    position: relative;
+    /*Horizontally with Flexbox*/
+    display: flex;
+    justify-content: center;
+}
+
+.slogan-text{
+    color: white;
+    /*Vertically with Transform and Translate*/
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 5.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#intro-section{
+    margin: 8vh 15vw;
+}
+
+#tuiles-articles{
+    background-color: #e8cebf;
+    padding: 4vh 4vw;
+}
+
+.tuiles-title{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+}

@@ -21,10 +21,17 @@
     add_action( 'init', 'ttc_menus', 15 );
 
 
+    // Remove Post Type Pages' Gutenberg editor
     function ttc_remove_page_editor() {
         remove_post_type_support( 'page', 'editor' );
     }
     add_action( 'init', 'ttc_remove_page_editor', 15 );
+
+    //Import Google Font
+    function wpb_add_google_fonts() {
+        wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display|Space+Mono|Stint+Ultra+Expanded&display=swap', false );
+    }
+    add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
 
     /**
