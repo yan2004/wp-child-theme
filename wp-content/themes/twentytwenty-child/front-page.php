@@ -67,9 +67,6 @@ $postType = get_post_type( get_the_ID() );
                                                 <div class="col-sm">
                                                     <a href="<?php the_permalink(); ?>">
 
-                                                        <p><?php //echo $article_categorie; ?></p>
-                                                        <p><?php //echo get_field('article_actif'); ?></p>
-
                                                         <?php $article_image = get_field('article_image'); ?>
                                                         <?php if( $article_image ): ?>
                                                             <div class="card gallery_articles_image">
@@ -99,9 +96,6 @@ $postType = get_post_type( get_the_ID() );
                                     <div class="col-sm">
                     
                                         <a href="<?php the_permalink(); ?>">
-
-                                            <p><?php //echo $article_categorie; ?></p>
-                                            <p><?php //echo get_field('article_actif'); ?></p>
 
                                             <?php $article_image = get_field('article_image'); ?>
                                             <?php if( $article_image ): ?>
