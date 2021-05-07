@@ -42,7 +42,7 @@ define('WP_DEBUG', true);
 # Step 1
 - Create a new Custom Post Type named 'Articles'. Note that this new Post Type does not display the Gutenberg editor.
 - For this new Post Type, create and associate the fields :
-    * - Image (Field Type : Image)
+    * Image (Field Type : Image)
     * Catégorie* (Field Type : Select | Choices : Vaisselle / Service)
     * Description* (Field Type : Text)
     * Prix* (Field Type : Number)
