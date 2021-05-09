@@ -16,23 +16,24 @@ define('WP_DEBUG', true);
 ```
 
 # Screen shot reference: 
-**Home Page**\  
+
+**Home Page**<br/>
 
 <img src="https://user-images.githubusercontent.com/68293086/117090823-641ec500-ad27-11eb-9ce6-41e601325dd5.png" height="300">
 
-**Vaiselle Page**\
+**Vaiselle Page**<br/>
 
 <img src="https://user-images.githubusercontent.com/68293086/117369323-c34d1880-ae92-11eb-833f-93b4ea4ff739.png" height="300">
 
-**Service Page**\
+**Service Page**<br/>
 
 <img src="https://user-images.githubusercontent.com/68293086/117369473-f42d4d80-ae92-11eb-9b45-4feb1d80c67e.png" height="300">
 
-**About Page**\
+**About Page**<br/>
 
 <img src="https://user-images.githubusercontent.com/68293086/117369510-00b1a600-ae93-11eb-811b-0f8247d8ef7a.png" height="300">
 
-**Product Page**\
+**Product Page**<br/>
 
 <img src="https://user-images.githubusercontent.com/68293086/117369585-17f09380-ae93-11eb-9a0b-041413999844.png" height="300">
 
@@ -41,7 +42,7 @@ define('WP_DEBUG', true);
 # Step 1
 - Create a new Custom Post Type named 'Articles'. Note that this new Post Type does not display the Gutenberg editor.
 - For this new Post Type, create and associate the fields :
-    * - Image (Field Type : Image)
+    * Image (Field Type : Image)
     * Catégorie* (Field Type : Select | Choices : Vaisselle / Service)
     * Description* (Field Type : Text)
     * Prix* (Field Type : Number)
